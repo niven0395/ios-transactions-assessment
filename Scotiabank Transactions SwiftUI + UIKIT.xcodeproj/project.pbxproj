@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AC1F30702FCA0B4C00379D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC1F305A2FCA0B4800379D20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC1F30612FCA0B4800379D20;
+			remoteInfo = "Scotiabank Transactions SwiftUI + UIKIT";
+		};
+		AC1F307A2FCA0B4C00379D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC1F305A2FCA0B4800379D20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC1F30612FCA0B4800379D20;
+			remoteInfo = "Scotiabank Transactions SwiftUI + UIKIT";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC1F30622FCA0B4800379D20 /* Scotiabank Transactions SwiftUI + UIKIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scotiabank Transactions SwiftUI + UIKIT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1F306F2FCA0B4C00379D20 /* Scotiabank Transactions SwiftUI + UIKITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scotiabank Transactions SwiftUI + UIKITTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1F30792FCA0B4C00379D20 /* Scotiabank Transactions SwiftUI + UIKITUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scotiabank Transactions SwiftUI + UIKITUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AC1F30642FCA0B4800379D20 /* Scotiabank Transactions SwiftUI + UIKIT */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Scotiabank Transactions SwiftUI + UIKIT";
+			sourceTree = "<group>";
+		};
+		AC1F30722FCA0B4C00379D20 /* Scotiabank Transactions SwiftUI + UIKITTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Scotiabank Transactions SwiftUI + UIKITTests";
+			sourceTree = "<group>";
+		};
+		AC1F307C2FCA0B4C00379D20 /* Scotiabank Transactions SwiftUI + UIKITUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Scotiabank Transactions SwiftUI + UIKITUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC1F305F2FCA0B4800379D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1F306C2FCA0B4C00379D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1F30762FCA0B4C00379D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC1F30592FCA0B4800379D20 = {
+			isa = PBXGroup;
+			children = (
+				AC1F30642FCA0B4800379D20 /* Scotiabank Transactions SwiftUI + UIKIT */,
+				AC1F30722FCA0B4C00379D20 /* Scotiabank Transactions SwiftUI + UIKITTests */,
+				AC1F307C2FCA0B4C00379D20 /* Scotiabank Transactions SwiftUI + UIKITUITests */,
+				AC1F30632FCA0B4800379D20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC1F30632FCA0B4800379D20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC1F30622FCA0B4800379D20 /* Scotiabank Transactions SwiftUI + UIKIT.app */,
+				AC1F306F2FCA0B4C00379D20 /* Scotiabank Transactions SwiftUI + UIKITTests.xctest */,
+				AC1F30792FCA0B4C00379D20 /* Scotiabank Transactions SwiftUI + UIKITUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC1F30612FCA0B4800379D20 /* Scotiabank Transactions SwiftUI + UIKIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1F30832FCA0B4C00379D20 /* Build configuration list for PBXNativeTarget "Scotiabank Transactions SwiftUI + UIKIT" */;
+			buildPhases = (
+				AC1F305E2FCA0B4800379D20 /* Sources */,
+				AC1F305F2FCA0B4800379D20 /* Frameworks */,
+				AC1F30602FCA0B4800379D20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AC1F30642FCA0B4800379D20 /* Scotiabank Transactions SwiftUI + UIKIT */,
+			);
+			name = "Scotiabank Transactions SwiftUI + UIKIT";
+			packageProductDependencies = (
+			);
+			productName = "Scotiabank Transactions SwiftUI + UIKIT";
+			productReference = AC1F30622FCA0B4800379D20 /* Scotiabank Transactions SwiftUI + UIKIT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC1F306E2FCA0B4C00379D20 /* Scotiabank Transactions SwiftUI + UIKITTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1F30862FCA0B4C00379D20 /* Build configuration list for PBXNativeTarget "Scotiabank Transactions SwiftUI + UIKITTests" */;
+			buildPhases = (
+				AC1F306B2FCA0B4C00379D20 /* Sources */,
+				AC1F306C2FCA0B4C00379D20 /* Frameworks */,
+				AC1F306D2FCA0B4C00379D20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC1F30712FCA0B4C00379D20 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AC1F30722FCA0B4C00379D20 /* Scotiabank Transactions SwiftUI + UIKITTests */,
+			);
+			name = "Scotiabank Transactions SwiftUI + UIKITTests";
+			packageProductDependencies = (
+			);
+			productName = "Scotiabank Transactions SwiftUI + UIKITTests";
+			productReference = AC1F306F2FCA0B4C00379D20 /* Scotiabank Transactions SwiftUI + UIKITTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC1F30782FCA0B4C00379D20 /* Scotiabank Transactions SwiftUI + UIKITUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1F30892FCA0B4C00379D20 /* Build configuration list for PBXNativeTarget "Scotiabank Transactions SwiftUI + UIKITUITests" */;
+			buildPhases = (
+				AC1F30752FCA0B4C00379D20 /* Sources */,
+				AC1F30762FCA0B4C00379D20 /* Frameworks */,
+				AC1F30772FCA0B4C00379D20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC1F307B2FCA0B4C00379D20 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AC1F307C2FCA0B4C00379D20 /* Scotiabank Transactions SwiftUI + UIKITUITests */,
+			);
+			name = "Scotiabank Transactions SwiftUI + UIKITUITests";
+			packageProductDependencies = (
+			);
+			productName = "Scotiabank Transactions SwiftUI + UIKITUITests";
+			productReference = AC1F30792FCA0B4C00379D20 /* Scotiabank Transactions SwiftUI + UIKITUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC1F305A2FCA0B4800379D20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					AC1F30612FCA0B4800379D20 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					AC1F306E2FCA0B4C00379D20 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = AC1F30612FCA0B4800379D20;
+					};
+					AC1F30782FCA0B4C00379D20 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = AC1F30612FCA0B4800379D20;
+					};
+				};
+			};
+			buildConfigurationList = AC1F305D2FCA0B4800379D20 /* Build configuration list for PBXProject "Scotiabank Transactions SwiftUI + UIKIT" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC1F30592FCA0B4800379D20;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AC1F30632FCA0B4800379D20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC1F30612FCA0B4800379D20 /* Scotiabank Transactions SwiftUI + UIKIT */,
+				AC1F306E2FCA0B4C00379D20 /* Scotiabank Transactions SwiftUI + UIKITTests */,
+				AC1F30782FCA0B4C00379D20 /* Scotiabank Transactions SwiftUI + UIKITUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC1F30602FCA0B4800379D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1F306D2FCA0B4C00379D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1F30772FCA0B4C00379D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC1F305E2FCA0B4800379D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1F306B2FCA0B4C00379D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1F30752FCA0B4C00379D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC1F30712FCA0B4C00379D20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC1F30612FCA0B4800379D20 /* Scotiabank Transactions SwiftUI + UIKIT */;
+			targetProxy = AC1F30702FCA0B4C00379D20 /* PBXContainerItemProxy */;
+		};
+		AC1F307B2FCA0B4C00379D20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC1F30612FCA0B4800379D20 /* Scotiabank Transactions SwiftUI + UIKIT */;
+			targetProxy = AC1F307A2FCA0B4C00379D20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC1F30812FCA0B4C00379D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FSRNNZN4V3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC1F30822FCA0B4C00379D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FSRNNZN4V3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC1F30842FCA0B4C00379D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSRNNZN4V3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "niven.Scotiabank-Transactions-SwiftUI---UIKIT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC1F30852FCA0B4C00379D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSRNNZN4V3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "niven.Scotiabank-Transactions-SwiftUI---UIKIT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC1F30872FCA0B4C00379D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSRNNZN4V3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "niven.Scotiabank-Transactions-SwiftUI---UIKITTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scotiabank Transactions SwiftUI + UIKIT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scotiabank Transactions SwiftUI + UIKIT";
+			};
+			name = Debug;
+		};
+		AC1F30882FCA0B4C00379D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSRNNZN4V3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "niven.Scotiabank-Transactions-SwiftUI---UIKITTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scotiabank Transactions SwiftUI + UIKIT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scotiabank Transactions SwiftUI + UIKIT";
+			};
+			name = Release;
+		};
+		AC1F308A2FCA0B4C00379D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSRNNZN4V3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "niven.Scotiabank-Transactions-SwiftUI---UIKITUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Scotiabank Transactions SwiftUI + UIKIT";
+			};
+			name = Debug;
+		};
+		AC1F308B2FCA0B4C00379D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSRNNZN4V3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "niven.Scotiabank-Transactions-SwiftUI---UIKITUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Scotiabank Transactions SwiftUI + UIKIT";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC1F305D2FCA0B4800379D20 /* Build configuration list for PBXProject "Scotiabank Transactions SwiftUI + UIKIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1F30812FCA0B4C00379D20 /* Debug */,
+				AC1F30822FCA0B4C00379D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1F30832FCA0B4C00379D20 /* Build configuration list for PBXNativeTarget "Scotiabank Transactions SwiftUI + UIKIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1F30842FCA0B4C00379D20 /* Debug */,
+				AC1F30852FCA0B4C00379D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1F30862FCA0B4C00379D20 /* Build configuration list for PBXNativeTarget "Scotiabank Transactions SwiftUI + UIKITTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1F30872FCA0B4C00379D20 /* Debug */,
+				AC1F30882FCA0B4C00379D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1F30892FCA0B4C00379D20 /* Build configuration list for PBXNativeTarget "Scotiabank Transactions SwiftUI + UIKITUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1F308A2FCA0B4C00379D20 /* Debug */,
+				AC1F308B2FCA0B4C00379D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC1F305A2FCA0B4800379D20 /* Project object */;
+}
