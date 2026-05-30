@@ -140,13 +140,6 @@ Xcode 26 · iOS 26.0+ deployment target (supports the full iOS 26 line).
 Ordered by what matters most at Scotiabank scale (millions of users, a large team,
 a regulated Canadian bank):
 
-- **Real API + offline cache**: add a `RemoteTransactionService` conforming to
-  `TransactionServicing` (URLSession; the models already decode straight from the
-  wire format, and the cursor/page API already matches a real backend) — a
-  one-line swap at the composition root. Layer a `CachingTransactionService`
-  decorator (SwiftData/disk) behind the same protocol for offline reads, plus
-  retry/backoff and auth/token refresh. *Why:* the protocol seam is the whole point
-  of the design; this is what makes it pay off.
 - **Localization — English + French**: move user-facing strings to String Catalogs
   and let `CurrencyFormatter` follow the user locale (re-evaluating the bidi-strip
   once non-LTR/locale formatting is live). *Why:* for a federally-regulated Canadian
@@ -159,8 +152,3 @@ a regulated Canadian bank):
 - **Modularization**: split into SPM packages (`TransactionsCore` model/service,
   `TransactionsUI`, `DesignSystem`). *Why:* with a large team, clear module
   boundaries and parallel build times are the engineering-scalability lever.
-- **Pull-to-refresh + prefetch tuning** on top of the existing infinite scroll, and
-  a **full account flow** (accounts dashboard → account → transactions) with a
-  balance hero and a Liquid Glass action row.
-- **Theming**: promote `Theme` to an `@Entry` environment value for runtime theming;
-  add a VoiceOver/Dynamic Type audit and snapshot tests for the list and detail.
