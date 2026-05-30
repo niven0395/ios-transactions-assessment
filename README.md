@@ -1,4 +1,4 @@
-# Scotiabank Transactions — iOS Coding Assessment
+# iOS Coding Assessment
 
 A small iOS app that lists credit-card transactions and shows a detail screen for
 each one. Built to the assignment brief, with a deliberate **SwiftUI + UIKit**
