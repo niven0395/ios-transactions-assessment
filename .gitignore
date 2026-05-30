@@ -1,0 +1,18 @@
+# Xcode build output
+build/
+DerivedData/
+
+# Xcode per-user state (keep xcshareddata for shared schemes)
+*.xcuserstate
+xcuserdata/
+
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# CocoaPods / Carthage (if ever added)
+Pods/
+Carthage/Build/

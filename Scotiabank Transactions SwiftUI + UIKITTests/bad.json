@@ -1,0 +1,8 @@
+{
+  "transactions": [
+    {
+      "key": "broken",
+      "transaction_type": "CREDIT",
+      "merchant_name": "Missing closing braces and a dangling field",
+      "amount": { "value": , "currency": "CAD" }
+}

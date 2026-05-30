@@ -1,12 +1,15 @@
-//___FILEHEADER___
+//
+//  Scotiabank_Transactions_SwiftUI___UIKITUITestsLaunchTests.swift
+//  Scotiabank Transactions SwiftUI + UIKIT UI Tests
+//
+//  Captures a launch-screen screenshot attachment for each UI configuration.
+//
 
 import XCTest
 
-final class ___FILEBASENAMEASIDENTIFIER___: XCTestCase {
+final class TransactionsLaunchTests: XCTestCase {
 
-    override class var runsForEachTargetApplicationUIConfiguration: Bool {
-        true
-    }
+    override class var runsForEachTargetApplicationUIConfiguration: Bool { true }
 
     override func setUpWithError() throws {
         continueAfterFailure = false
@@ -16,9 +19,6 @@ final class ___FILEBASENAMEASIDENTIFIER___: XCTestCase {
     func testLaunch() throws {
         let app = XCUIApplication()
         app.launch()
-
-        // Insert steps here to perform after app launch but before taking a screenshot,
-        // such as logging into a test account or navigating somewhere in the app
 
         let attachment = XCTAttachment(screenshot: app.screenshot())
         attachment.name = "Launch Screen"

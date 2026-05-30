@@ -1,0 +1,24 @@
+{
+  "transactions": [
+    {
+      "key": "valid-1",
+      "transaction_type": "CREDIT",
+      "merchant_name": "Payroll Deposit",
+      "description": "Salary",
+      "amount": { "value": 1500.00, "currency": "CAD" },
+      "posted_date": "2021-05-31",
+      "from_account": "Momentum Regular Visa",
+      "from_card_number": "4537350001688012"
+    },
+    {
+      "key": "valid-2",
+      "transaction_type": "DEBIT",
+      "merchant_name": "Cash Advance Fee",
+      "description": "Cash advance",
+      "amount": { "value": 5.00, "currency": "CAD" },
+      "posted_date": "2021-05-30",
+      "from_account": "Momentum Regular Visa",
+      "from_card_number": "4537350001688012"
+    }
+  ]
+}
