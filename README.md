@@ -49,12 +49,6 @@ bridged into the SwiftUI detail sheet with `UIViewControllerRepresentable`
 (wrapped in a `UINavigationController` for its title bar), forwarding **Close**
 back up so SwiftUI still owns dismissal.
 
-This is where UIKit earns its place: a bespoke, custom-laid-out detail screen with
-fine-grained control over the card, animated ToolTip expansion, and precise
-VoiceOver grouping is a natural fit for programmatic UIKit, so the split shows real
-UIKit depth plus clean SwiftUI ↔ UIKit interop rather than using UIKit for its own
-sake.
-
 ### Scalability — paginated loading
 
 The app never loads the whole history at once. The service is shaped like a
